@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/choices.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div id="preloaderbg">
+    <div class="preloader-center">
+      <div class="preloader">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="top">
+    <header class="header">
+      <div class="container header__inner">
+        <a class="logo" href="#">
+          <svg class="logo__icon" width="50px" height="50px">
+            <use xlink:href="./images/sprite-changer-page.svg#bit-icon"></use>
+          </svg>
+          <span class="logo__text">Exchanger</span>
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Exange</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Testimonial</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Affilate</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Contact</a>
+            </li>
+          </ul>
+          <button class="header__menu-close">
+            <svg width="24px" height="24px" fill="none">
+              <use xlink:href="./images/sprite-changer-page.svg#close-icon"></use>
+            </svg>
+          </button>
+        </nav>
+        <div class="header__end">
+          <a class="header__end-login" href="#">
+            <svg width="16px" height="16px">
+              <use xlink:href="./images/sprite-changer-page.svg#login-icon"></use>
+            </svg>
+            <span>Login / Create account</span>
+          </a>
+          <div class="header__end-language language">
+            <details class="language__details">
+              <summary class="language__title">
+                <svg width="20px" height="20px">
+                  <use xlink:href="./images/sprite-changer-page.svg#language-icon"></use>
+                </svg>
+                <span class="language__title-text">English</span>
+              </summary>
+              <ul class="language__list">
+                <li class="language__item">
+                  <a class="language__link" href="#">Русский</a>
+                </li>
+                <li class="language__item">
+                  <a class="language__link" href="#">French</a>
+                </li>
+                <li class="language__item">
+                  <a class="language__link" href="#">Italiano</a>
+                </li>
+              </ul>
+            </details>
+          </div>
+          <button class="header__burger">
+            <svg width="24px" height="24px">
+              <use xlink:href="./images/sprite-changer-page.svg#burger-icon"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <div class="container content__wrapper">
+        <div class="content__inner">
+          <div class="content__main">
+            <form class="content__main-end exchange-form">
+              <input type="hidden" name="current-value" value="bit" class="exchange-form__state-exchange" />
+              <!-- elem1 -->
+              <div class="exchange-form__elem swap-cryptocurrency">
+                <div class="exchange-form__pic-block">
+                  <svg class="exchange-form__pic-svg" preserveAspectRatio="xMinYMin meet" width="100px" height="100px">
+                    <use x="0" y="0" xlink:href="./images/sprite-changer-page.svg#bit-icon"></use>
+                  </svg>
+                </div>
+                <div class="exchange-form__content">
+                  <div class="exchange-form__title">
+                    <svg height="20px" width="20px">
+                      <use xlink:href="./images/sprite-changer-page.svg#arrow-icon"></use>
+                    </svg>
+                    <span>Send</span>
+                  </div>
+                  <div class="exchange-form__select">
+                    <select></select>
+                  </div>
+                  <input class="exchange-form__input input" type="text" value="1" inputmode="numeric"/>
+                  <div class="exchange-form__notice">
+                    Exchange 1 <span class="exchange-form__notice-cryptocurrency">BTC</span> = <span
+                      class="exchange-form__notice-price">39513.18</span></span><span
+                      class="exchange-form__notice-valut">&nbsp;USD</span>
+                  </div>
+                </div>
+              </div>
+              <!-- elem2 -->
+              <div class="exchange-form__elem swap-payment">
+                <div class="exchange-form__content">
+                  <div class="exchange-form__title">
+                    <svg height="20px" width="20px">
+                      <use xlink:href="./images/sprite-changer-page.svg#arrow-icon"></use>
+                    </svg>
+                    <span>Receive</span>
+                  </div>
+                  <div class="exchange-form__select">
+                    <select></select>
+                  </div>
+                  <input class="exchange-form__input input" value="39513.18" type="text" readonly inputmode="numeric"/>
+                  <div class="exchange-form__notice">Reserve: 40000 USD</div>
+                </div>
+                <div class="exchange-form__pic-block">
+                  <img class="exchange-form__img" width="100" height="100" src="./images/card-img.png" alt="card" />
+                </div>
+              </div>
+              <div class="exchange-form__elem-span-2">
+                <button class="exchange-form__swap">
+                  <svg class="exchange-form__swap-cryptocurrency" class="exchange-form__swap-bit" width="24px"
+                    height="24px">
+                    <use xlink:href="./images/sprite-changer-page.svg#bit-icon"></use>
+                  </svg>
+                  <svg class="exchange-form__swap-icon" width="15px" height="15px">
+                    <use xlink:href="./images/sprite-changer-page.svg#swap-icon"></use>
+                  </svg>
+                  <img class="exchange-form__swap-payment" src="./images/card-img.png" alt="card" />
+                </button>
+                <button class="exchange-form__btn btn">
+                  <svg class="exchange-form__btn-icon" width="20px" height="20px">
+                    <use xlink:href="./images/sprite-changer-page.svg#swap-icon"></use>
+                  </svg>
+                  <span>Exchange</span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="content__aside">
+            <form class="content__aside-elem">
+              <div class="content__aside-title">Track exchange</div>
+              <input type="text" class="content__aside-input input" placeholder="Type here exchange id" />
+              <button type="submit" class="content__asise-btn btn">
+                Track
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/choices.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

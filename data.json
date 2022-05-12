@@ -1,0 +1,43 @@
+{
+    "cryptocurrency": {
+        "btc": {
+            "url": "./images/sprite-changer-page.svg#bit-icon",
+            "text": "BTC",
+            "price": 39513.18
+        },
+        "eth": {
+            "url": "./images/sprite-changer-page.svg#eth-icon",
+            "text": "ETH",
+            "price": 2928.78
+        },
+        "doge": {
+            "url": "./images/sprite-changer-page.svg#doge-icon",
+            "text": "DOGE",
+            "price": 0.1348
+        },
+        "trx": {
+            "url": "./images/sprite-changer-page.svg#tron-icon",
+            "text": "TRX",
+            "price": 0.082977
+        },
+        "bnb": {
+            "url": "./images/sprite-changer-page.svg#bnb-icon",
+            "text": "BNB",
+            "price": 409.41
+        }
+    },
+    "payment": {
+        "card": {
+            "url": "./images/card-img.png",
+            "text": "Visa / Master Card"
+        },
+        "webmoney": {
+            "url": "./images/webmoney-icon.svg",
+            "text": "Webmoney"
+        },
+        "qiwi": {
+            "url": "./images/qiwi-icon.png",
+            "text": "Qiwi"
+        }
+    }
+}
